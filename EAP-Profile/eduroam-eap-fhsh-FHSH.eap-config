@@ -24,6 +24,14 @@
     </AuthenticationMethods>
     <CredentialApplicability>
       <IEEE80211>
+        <SSID>eduroam</SSID>
+        <MinRSNProto>CCMP</MinRSNProto>
+      </IEEE80211>
+      <IEEE80211>
+        <SSID>eduroam-fhsh</SSID>
+        <MinRSNProto>CCMP</MinRSNProto>
+      </IEEE80211>
+      <IEEE80211>
         <SSID>Fhsh-Eduroam</SSID>
         <MinRSNProto>CCMP</MinRSNProto>
       </IEEE80211>
@@ -32,8 +40,8 @@
       </IEEE80211>
     </CredentialApplicability>
     <ProviderInfo>
-      <DisplayName>國立鳳新高級中學(內部)</DisplayName>
-      <Description>內部用 eduroam 跨校漫遊認證服務</Description>
+      <DisplayName>國立鳳新高級中學</DisplayName>
+      <Description>eduroam 跨校漫遊認證服務 (鳳新高中特製版)</Description>
        <Helpdesk>
         <EmailAddress>5605@fhsh.khc.edu.tw</EmailAddress>
         <WebAddress>https://www.fhsh.khc.edu.tw/</WebAddress>
